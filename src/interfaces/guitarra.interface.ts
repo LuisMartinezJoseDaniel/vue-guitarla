@@ -5,3 +5,7 @@ export interface IGuitarra {
   descripcion: string;
   precio: number;
 }
+
+export interface ICarrito extends IGuitarra {
+  cantidad: number;
+}
